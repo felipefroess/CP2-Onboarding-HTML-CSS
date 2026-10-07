@@ -4,30 +4,25 @@ Projeto de página web desenvolvido a partir do layout disponibilizado no Figma,
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
-O **Great Coffee** é uma landing page moderna e responsiva com a temática de café para desenvolvedores (*"O café que fará seu código decolar para o próximo nível"* / *"Great Coffee </Great Code/>"*).
+O **Great Coffee** é uma landing page moderna e responsiva com a temática de café para desenvolvedores 
 
-### ✨ Funcionalidades e Destaques
+### Funcionalidades e Destaques
 - **Uso estrito de HTML e CSS:** Desenvolvido puramente com tecnologias nativas da web, sem frameworks ou bibliotecas externas.
 - **Responsividade completa:** Layout adaptado tanto para **Desktop** quanto para **Mobile**.
-  - **Desktop:** Navegação horizontal completa, botão de ação e ambient light gradient de fundo.
+  - **Desktop:** Navegação horizontal completa, botão de ação e ambiente light gradient de fundo.
   - **Mobile:** Menu hamburguer simplificado, novos destaques de texto e elementos redimensionados para telas menores.
-- **Efeitos visuais em CSS:**
-  - Iluminação ambiental (*bloom / ambient light*) com `radial-gradient` no `body`.
-  - Tipografia personalizada com Google Fonts (Inter).
-  - Texto estilizado vazado (*outline text*) com `-webkit-text-stroke`.
-
 ---
 
-## 🎨 Layout de Referência
+## Layout de Referência
 
 O layout original utilizado como guia para o desenvolvimento pode ser acessado no Figma:
 - [Figma - Primeira Atividade Onboarding HTML & CSS](https://www.figma.com/design/50IIf5AGtx4uBF8U5qzivp/Primeira-atividade-Onboarding-HTML---CSS?node-id=0-1&t=d5HlPXuIjzkmOZZO-0)
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Como o projeto foi construído exclusivamente com HTML e CSS puros, você não precisa instalar nenhuma dependência ou gerenciador de pacotes para executá-lo.
 
