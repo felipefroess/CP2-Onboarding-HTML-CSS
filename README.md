@@ -31,24 +31,19 @@ Como o projeto foi construído exclusivamente com HTML e CSS puros, você não p
    git clone https://github.com/felipefroess/CP2-Onboarding-HTML-CSS.git
    ```
 
-2. **Acesse a pasta do projeto:**
-   ```bash
-   cd cp2-great-coffee
-   ```
-
 3. **Abra no navegador:**
    - Dê um duplo clique no arquivo `index.html` para abri-lo diretamente no seu navegador padrão; **OU**
    - No VS Code, clique com o botão direito em `index.html` e selecione **"Open with Live Server"**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica da página.
 - **CSS3:** Estilização, Flexbox, Media Queries e gradientes.
 
 ---
 
-## 👤 Autor
+## Autor
 
 Desenvolvido por **Felipe Fróes**.
