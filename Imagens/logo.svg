@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#72844F" width="100%" height="100%">
+  <!-- Vapores -->
+  <rect x="96" y="32" width="32" height="112" rx="16"/>
+  <rect x="192" y="32" width="32" height="112" rx="16"/>
+  <rect x="288" y="32" width="32" height="112" rx="16"/>
+  <!-- Base inferior -->
+  <rect x="32" y="448" width="352" height="32" rx="16"/>
+  <!-- Asa da chávena -->
+  <path d="M368 192h32c44.18 0 80 35.82 80 80s-35.82 80-80 80h-32v-32h32c26.51 0 48-21.49 48-48s-21.49-48-48-48h-32v-32z"/>
+  <!-- Corpo da chávena (contorno oco) -->
+  <path d="M48 160h320v96c0 88.37-71.63 160-160 160S48 344.37 48 256v-96zm32 32v64c0 70.69 57.31 128 128 128s128-57.31 128-128v-64H80z"/>
+</svg>

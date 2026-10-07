@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #000000;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(
+      circle at 0% 65%,
+      rgba(100, 124, 53, 0.5) 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 100% 25%,
+      rgba(114, 150, 41, 0.5) 0%,
+      transparent 40%
+    );
+  background-repeat: no-repeat;
+}
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  gap: 32px;
+}
+#botao {
+  display: inline-block;
+  border: 3px solid #72844f;
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin: 0px;
+  font-size: 0.9m;
+}
+.imagem1 {
+  width: 40px;
+  height: 40px;
+}
+.imagem2 {
+  width: 500px;
+  height: 500px;
+}
+div {
+  padding-top: 60px;
+  text-align: center;
+}
+div h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin: 0px;
+}
+#titulo {
+  color: transparent;
+  -webkit-text-stroke: 1px #72844f;
+  font-family: "Gill Sans", sans-serif;
+}
+.menu-mobile,
+.conteudo-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 20px 24px;
+  }
+  header nav,
+  #botao {
+    display: none;
+  }
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0px;
+  }
+  .menu-mobile span {
+    width: 32px;
+    height: 3px;
+    background-color: #72844f;
+    border-radius: 2px;
+  }
+  .conteudo-mobile {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 50px;
+  }
+  .conteudo-mobile h2 {
+    font-weight: 300;
+  }
+  .botao-mobile {
+    display: inline-block;
+    border: 3px solid #72844f;
+    padding: 5px 20px;
+    border-radius: 15px;
+  }
+}
